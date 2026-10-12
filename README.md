@@ -19,7 +19,7 @@ VoiceOps AI is a full-stack call-centre staff app built for a Forward Deployed E
 - Real browser softphone initialization.
 - Web-to-phone-number calling with E.164 phone numbers.
 - AI outbound phone calls with spoken responses.
-- Beginner-friendly setup readiness checks for API, Twilio browser calling, webhook, and AI calling.
+- Reviewer-friendly setup readiness checks for API, Twilio browser calling, webhook, and AI calling.
 - E.164 phone-number validation before any real call is attempted.
 - Demo readiness checklist for the required assignment video.
 - Recent call activity log for debugging and screen-recording proof.

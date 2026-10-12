@@ -180,10 +180,10 @@ export default function App() {
 
         <section className="operator-card">
           <div>
-            <span>Agent</span>
-            <strong>Ankit</strong>
+            <span>Workspace</span>
+            <strong>On-Ground Ops</strong>
           </div>
-          <small>Beginner mode on</small>
+          <small>Demo ready</small>
         </section>
 
         <section className="queue-summary">
