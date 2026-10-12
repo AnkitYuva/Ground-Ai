@@ -46,7 +46,7 @@ button {
 
 .app-shell {
   display: grid;
-  grid-template-columns: 300px minmax(0, 1fr) 390px;
+  grid-template-columns: 280px minmax(0, 1fr) 360px;
   min-height: 100vh;
   background:
     radial-gradient(ellipse 900px 520px at 16% -8%, rgba(255, 178, 89, 0.12), transparent 62%),
@@ -379,6 +379,7 @@ dt,
 .metric {
   gap: 12px;
   padding: 14px;
+  min-width: 0;
 }
 
 .metric > span {
@@ -415,7 +416,7 @@ dt,
 
 .main-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.28fr) minmax(320px, 0.72fr);
+  grid-template-columns: minmax(0, 1.25fr) minmax(340px, 0.75fr);
   gap: 16px;
 }
 
@@ -426,6 +427,7 @@ dt,
 .demo-card,
 .log-card {
   padding: 18px;
+  min-width: 0;
 }
 
 .panel-heading {
@@ -652,10 +654,15 @@ dt,
 
 .call-control-row {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-columns: 1fr;
   gap: 10px;
   align-items: start;
   margin-top: 12px;
+}
+
+.voice-status {
+  display: block;
+  overflow-wrap: anywhere;
 }
 
 .validation-hint {
@@ -812,6 +819,18 @@ dd {
     grid-column: 1 / -1;
     border-left: 0;
     border-top: 1px solid var(--line);
+  }
+}
+
+@media (max-width: 1500px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 1320px) {
+  .metric-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
