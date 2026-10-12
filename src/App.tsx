@@ -173,17 +173,17 @@ export default function App() {
             <Headphones size={22} />
           </div>
           <div>
-            <strong>VoiceOps AI</strong>
-            <span>Real call-centre desk</span>
+            <strong>on-ground.ai</strong>
+            <span>VoiceOps command desk</span>
           </div>
         </div>
 
         <section className="operator-card">
           <div>
             <span>Workspace</span>
-            <strong>On-Ground Ops</strong>
+            <strong>Agentic Calling OS</strong>
           </div>
-          <small>Demo ready</small>
+          <small>Live demo</small>
         </section>
 
         <section className="queue-summary">
@@ -218,7 +218,7 @@ export default function App() {
       <section className="workspace">
         <header className="topbar">
           <div>
-            <p>Active customer</p>
+            <p>Live floor signal</p>
             <h1>{selectedCall.customer}</h1>
             <span className="subtle-line">
               {selectedCall.reason} · {selectedCall.location}
